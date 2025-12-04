@@ -1,4 +1,13 @@
 console.log("hello world");
+const a = 10;
+const b = 20;
+console.log("Value of a is:", a);
+console.log("Value of b is:", b);
+function fun(x,y){
+    console.log("Sum inside function:", x + y);
+}
+console.log("Sum of a and b is:", a + b);
+console.log("Product of a and b is:", a * b);
 let arr = [1, 2, 3, 4, 5];
 let sum = arr.reduce((acc,val)=>acc+val,0);
 console.log("Array elements:", arr);
